@@ -1,0 +1,229 @@
+﻿body {
+    background: white;
+    margin: 0px;
+
+}
+.scale{
+	transition: 1s; /*Время эффекта */
+}
+.scale:hover{
+    transform: scale(1000); /*Увеличиваем масштаб*/ 
+}
+
+	
+header, nav, main, footer{
+    margin: 0px;
+}
+header {
+	height: 90px;
+	width: 100%;
+	background: #32CD32;
+}
+nav{
+    height: 50px;
+    width: 100%;
+	background: #32CD32;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+main{
+    height: auto;
+    width: 100%;
+    background: white;
+	
+}
+footer {
+	height: 90px;
+	width: 100%;
+	background: #32CD32;
+	display: flex;
+}
+.name, .vhod{
+	height: 90px;
+	width: auto;
+	margin-left: 0px;
+	float: left;
+	background: #32CD32;
+}
+
+.Logo {
+	height: 15px;
+    width: auto;
+    float: left;
+	border-radius: 0px;
+}
+
+.image_logo {
+    height: 80px;
+    width: auto;
+
+}
+
+.name{
+    width: 1550px;
+}
+
+.a1 {
+	background: #00FF7F;
+    border: 4px black;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.a2 {
+	background: #00FF7F;
+    border: 4px black;
+    border-radius: 20px;
+    padding: 15px;
+    float: left;
+	margin-left: 250px;
+}
+
+.a3 {
+	background: #00FF7F;
+	border: 4px black;
+	border-radius: 20px;
+	padding: 10px;
+	float: left;
+	color: black;
+}
+
+.a4 {
+    border: 4px black;
+    border-radius: 15px;
+    padding: 8px;
+	margin-left: 50px;
+}
+
+.a5 {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+}
+.a6 {
+	background: #00FF7F;
+	border: 4px black;
+	border-radius: 15px;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+.left, .right, .center{
+	float: left;
+	height: autopx;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.left{
+	width: 19%;
+	background: white;
+}
+.right{
+	height: 200px;
+	width: 19%;
+	background: white;
+}
+.center{
+	height: auto;
+	width: 60%;
+	background: white;
+}
+.rek_time{
+	height: auto;
+	width: 50%;
+
+}
+
+.tovar{
+	height: 650px;
+	width: 310px;
+	border: 4px black;
+	float: left;
+	margin: 15px;
+}
+.tovar_img{
+	height: 300px;
+	width: 400px;
+	border: 4px black;
+	margin: 0px;
+	
+}
+.tovar_about{
+	height: auto;
+	width: 300px;
+	border: 4px black;
+	margin: 0px;
+}
+
+.tovar_all {
+	height: autopx;
+	width: auto;
+	margin-left: 370px;
+	border: 4px;
+	border-radius: 15px;
+	background: #e6e6e6;
+	padding: 7px;
+	margin-top: 10px;
+}
+
+.tovar_all2 {
+	height: autopx;
+	width: auto;
+	margin-left: 370px;
+	border: 4px;
+	border-radius: 15px;
+	background: #e6e6e6;
+	padding: 7px;
+	margin-top: 22px;
+}
+input[type='submit']{
+	background: #00FF7F;
+	border: 4px #00FF7F;
+	border-radius: 10px;
+	font-family: franklin gothic medium;
+	font-size: 14px;
+	margin: 0px;
+	padding: 8px;
+}
+
+.dannie{
+	height: auto;
+	width: auto;
+    float: left;
+}
+
+.ssilka{
+	height: auto;
+	width: auto;
+	float: left;
+	margin-left: 200px;
+	margin-top: 0px;
+}
+
+.kbtn{
+	height: 10px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+.scale {
+	transition: 1s; /* Время эффекта */
+}
+
+.scale:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.tovar_mini {
+	height: auto;
+	width: 100px;
+}
+
+.avatar{
+	height: 100px;
+	width: 100px;
+}
